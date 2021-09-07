@@ -1,6 +1,15 @@
 #!/bin/bash
 
-
+# FOR INSTALLING THE VIM PLUGINS:
+# git submodule init
+# git submodule update
+#
+# FOR INSTALLING NEW VIM PLUGINS:
+# git submodule add https://github.com/path/to/pluginName \
+#                   vim/bundle/pluginName
+# git add vim/bundle/pluginName .gitmodules
+# git commit -m "Added vim plugin: pluginName
+# git push
 
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.config/
