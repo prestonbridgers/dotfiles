@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home'
+let g:netrw_dirhist_2='/home/bridgerspc'
+let g:netrw_dirhist_1='/home/bridgerspc/Code/haskellator'
+let g:netrw_dirhist_0='/home/bridgerspc/.vim'
+let g:netrw_dirhist_9='/home/bridgerspc/School/se/djview/src'
+let g:netrw_dirhist_8='/home/bridgerspc/Documents/resume/markdown'
+let g:netrw_dirhist_7='/home/bridgerspc/Code/express/test-api/routes'
+let g:netrw_dirhist_6='/home/bridgerspc/Code/express/test-api'
+let g:netrw_dirhist_5='/home/bridgerspc/Code/express/test-api/routes/api'
+let g:netrw_dirhist_4='/home/bridgerspc/Code/physics/C/src'
