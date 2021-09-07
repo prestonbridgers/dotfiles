@@ -1,21 +1,3 @@
-[submodule "gruvbox"]
-	path = gruvbox
-	url = ./vim/bundle/gruvbox/
-[submodule "lightline.vim"]
-	path = lightline.vim
-	url = ./vim/bundle/lightline.vim/
-[submodule "nerdtree"]
-	path = nerdtree
-	url = ./vim/bundle/nerdtree/
-[submodule "tabular"]
-	path = tabular
-	url = ./vim/bundle/tabular/
-[submodule "vim-commentary"]
-	path = vim-commentary
-	url = ./vim/bundle/vim-commentary/
-[submodule "vim-fugitive"]
-	path = vim-fugitive
-	url = ./vim/bundle/vim-fugitive/
 [submodule "vim/bundle/gruvbox"]
 	path = vim/bundle/gruvbox
 	url = ./vim/bundle/gruvbox/
