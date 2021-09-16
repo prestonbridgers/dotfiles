@@ -66,9 +66,8 @@ export PS1="\[\e[33m\][\[\e[m\]\[\e[35m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[35m\]
 
 
 export PATH=$PATH:/home/bridgerspc/.local/bin
-export PATH=$PATH:/home/bridgerspc/node-v15.11.0-linux-x64/bin
-xrdb ~/.Xresources
-. "$HOME/.cargo/env"
+#xrdb ~/.Xresources
 
 # Curt's Aliases
+alias gs='cd ~/Documents/school/21_fall/'
 alias newsboat='newsboat -u=$HOME/.config/newsboat/urls -c=$HOME/.config/newsboat/cache.db'
