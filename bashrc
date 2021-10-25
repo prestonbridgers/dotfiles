@@ -70,4 +70,6 @@ export PATH=$PATH:/home/bridgerspc/.local/bin
 
 # Curt's Aliases
 alias gs='cd ~/Documents/school/21_fall/'
+alias gt='cd ~/Code/Buffer-Overflow/nCurses/demo'
 alias newsboat='newsboat -u=$HOME/.config/newsboat/urls -c=$HOME/.config/newsboat/cache.db'
+alias ssh='TERM=xterm ssh'
