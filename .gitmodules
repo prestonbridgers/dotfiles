@@ -22,6 +22,3 @@
 [submodule "vim/bundle/vim-floaterm"]
 	path = vim/bundle/vim-floaterm
 	url = https://github.com/voldikss/vim-floaterm
-[submodule "vim/bundle/c.vim"]
-	path = vim/bundle/c.vim
-	url = https://github.com/vim-scripts/c.vim
