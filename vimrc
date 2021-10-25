@@ -25,7 +25,6 @@ set rtp+=$HOME/.config/vim/bundle/Vundle.vim
 call vundle#begin("$HOME/.config/vim/bundle/")
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-scripts/c.vim'
 Plugin 'voldikss/vim-floaterm'
 Plugin 'itchyny/lightline.vim'
 Plugin 'godlygeek/tabular'
