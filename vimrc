@@ -25,6 +25,7 @@ set rtp+=$HOME/.config/vim/bundle/Vundle.vim
 call vundle#begin("$HOME/.config/vim/bundle/")
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-scripts/c.vim'
 Plugin 'voldikss/vim-floaterm'
 Plugin 'itchyny/lightline.vim'
 Plugin 'godlygeek/tabular'
@@ -61,6 +62,15 @@ nnoremap ,c :-1read $HOME/.config/vim/.skeleton.c<CR>10jA
 nnoremap ,java :-1read $HOME/.config/vim/.skeleton.java<CR>6jA
 nnoremap ,html :-1read $HOME/.config/vim/.skeleton.html<CR>7jA
 nnoremap ,syso ASystem.out.println("");<ESC>2hi
+
+nnoremap   <silent>   <F7>    :FloatermNew<CR>
+tnoremap   <silent>   <F7>    <C-\><C-n>:FloatermNew<CR>
+nnoremap   <silent>   <F8>    :FloatermPrev<CR>
+tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermPrev<CR>
+nnoremap   <silent>   <F9>    :FloatermNext<CR>
+tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNext<CR>
+nnoremap   <silent>   <F12>   :FloatermToggle<CR>
+tnoremap   <silent>   <F12>   <C-\><C-n>:FloatermToggle<CR>
 
 nnoremap <F3> :tabnew<CR>
 nnoremap <f4> :tabn<CR>
