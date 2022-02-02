@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-floaterm"]
 	path = vim/bundle/vim-floaterm
 	url = https://github.com/voldikss/vim-floaterm
+[submodule "vim/bundle/goyo.vim"]
+	path = vim/bundle/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
