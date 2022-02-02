@@ -73,3 +73,8 @@ alias gs='cd ~/Documents/school/21_fall/'
 alias gt='cd ~/Code/Buffer-Overflow/nCurses/demo'
 alias newsboat='newsboat -u=$HOME/.config/newsboat/urls -c=$HOME/.config/newsboat/cache.db'
 alias ssh='TERM=xterm ssh'
+. "$HOME/.cargo/env"
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[ -f /home/bridgerspc/Code/moss4-classroom-assistant/node_modules/tabtab/.completions/electron-forge.bash ] && . /home/bridgerspc/Code/moss4-classroom-assistant/node_modules/tabtab/.completions/electron-forge.bash

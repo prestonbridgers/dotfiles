@@ -16,7 +16,6 @@ set wildmenu
 
 syntax enable
 
-
 "" vundle config
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -31,12 +30,13 @@ Plugin 'godlygeek/tabular'
 Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
+Plugin 'junegunn/goyo.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " This must be after the vundle plugins
 let g:gruvbox_italic=1
-colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme gruvbox
 
 " Tags
 command! MakeTags !ctags -R .
